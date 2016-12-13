@@ -1,0 +1,16 @@
+<header>
+  <nav>
+    <a [routerLink]="['/app/124/bla']">Home</a>
+    <a [routerLink]="['/app/123/bla']">Home</a>
+  </nav>
+</header>
+<main>
+  
+  <!-- Images (and assets) are parsed and loaded from within the public directory -->
+  <img src="../../assets/img/angular.png">
+
+  <router-outlet></router-outlet>
+</main>
+<footer>
+  <a [href]="url">Webpack Angular 2 Starter</a>
+</footer>

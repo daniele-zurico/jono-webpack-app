@@ -1,0 +1,1 @@
+Create component that require other components and have access to services
